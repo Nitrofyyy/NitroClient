@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    position: absolute;
+    top: 54%;
+    left: 44%;
+    transform: translate(-50%-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: rgb(184, 241, 255);
+    font-size: 70px;
+}
+
+.desc1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%-50%);
+}
+
+.desc1 h2{
+    color: white;
+}
+
+.desc2{
+	position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%-50%);
+}
+
+.desc2 h2{
+	color: white;
+}
